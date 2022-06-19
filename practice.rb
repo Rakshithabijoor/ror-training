@@ -4,5 +4,11 @@
 
 # digits = Array(0...9) 
 #   puts #{digits}
-  array = [100, 200, 300, 400, 500]   
-  print array[5]
+ class Animal
+  attr_accessor :weight
+  def initialize(weight)
+    @weight=weight
+  end
+end
+  dog=Animal.new(3)
+  dog.weight

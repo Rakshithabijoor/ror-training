@@ -12,7 +12,7 @@ class Square < Polygon
   end
 
   def area()
-    super()
+    # super()
 end 
 end
 

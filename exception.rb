@@ -1,7 +1,7 @@
 
- 
+begin x/y
 def div(x,y)
-  begin x/y
+  
   
     
   rescue SecurityError => e
